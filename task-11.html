@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="task-11.css">
+</head>
+<body>
+    <div class="weather-container">
+        <h1>Weather App</h1>
+        <p class="subtitle">
+            Search for a city to check the current weather
+        </p>
+        <div class="search-box">
+            <input
+                type="text"
+                id="cityInput"
+                placeholder="Enter city name"
+            >
+            <button id="searchButton">
+                Search
+            </button>
+        </div>
+        <p id="statusMessage"></p>
+        <div class="weather-card">
+            <h2 id="cityName">Weather Information</h2>
+            <div class="weather-icon" id="weatherIcon">
+                ☀️
+            </div>
+            <p>
+                <strong>Temperature:</strong>
+                <span id="temperature">-</span>
+            </p>
+            <p>
+                <strong>Humidity:</strong>
+                <span id="humidity">-</span>
+            </p>
+            <p>
+                <strong>Weather:</strong>
+                <span id="weatherCondition">-</span>
+            </p>
+            <p>
+                <strong>Wind Speed:</strong>
+                <span id="windSpeed">-</span>
+            </p>
+        </div>
+    </div>
+    <script src="task-11.js"></script>
+</body>
+</html>
